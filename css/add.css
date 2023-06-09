@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    background: no-repeat url(../img/fon-regis.jpg);
+    background-size: cover;
+}
+.contenedor {
+    position: relative;
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;;
+}
+.titulo {
+    margin: 10px auto;
+    color: #ffff;
+}
+
+.contenedor form {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+    background-color:#ffffff8e ;
+    width: 60%;
+    height: auto;
+    padding: 20px 10px;
+    border-radius: 15px;
+}
+
+form input, select {
+    height: 30px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.btn input {
+    margin: 0 40px;
+    width: 150px;
+    background-color: #536abd;
+    color: #ffff;
+    text-transform: uppercase;
+}
+
+.btn input:hover {
+    background-color: chartreuse;
+    color:#536abd ;
+    transition: .3s ease-in;
+}
+
+.btn .btn-red:hover {
+    background-color: crimson;
+    color: #ffff;
+    transition: .3s ease-in;
+}
